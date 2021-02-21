@@ -75,7 +75,6 @@ function Button(props) {
   }
   buttonStyle["--border-radius"] = "20px";
 
-
   return <StyledButton borderRadius = "30" style={buttonStyle}>{props.children}</StyledButton>
 }
 
